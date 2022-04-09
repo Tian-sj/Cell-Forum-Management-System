@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.my.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>OwnersMainSS</servlet-name>
+    <servlet-class>com.my.servlet.OwnersMainSS</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ManagerMainSS</servlet-name>
+    <servlet-class>com.my.servlet.ManagerMainSS</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PropertyMainSS</servlet-name>
+    <servlet-class>com.my.servlet.PropertyMainSS</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Published</servlet-name>
+    <servlet-class>com.my.servlet.Published</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteVm</servlet-name>
+    <servlet-class>com.my.servlet.DeleteVm</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostingReview</servlet-name>
+    <servlet-class>com.my.servlet.PostingReview</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>MaPublished</servlet-name>
+    <servlet-class>com.my.servlet.MaPublished</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeletePosts</servlet-name>
+    <servlet-class>com.my.servlet.DeletePosts</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostsShow_O</servlet-name>
+    <servlet-class>com.my.servlet.PostsShow_O</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostsShow_P</servlet-name>
+    <servlet-class>com.my.servlet.PostsShow_P</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>PostsDelete</servlet-name>
+    <servlet-class>com.my.servlet.PostsDelete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountUp</servlet-name>
+    <servlet-class>com.my.servlet.AccountUp</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AccountDe</servlet-name>
+    <servlet-class>com.my.servlet.AccountDe</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnersMainSS</servlet-name>
+    <url-pattern>/OwnersMainSS.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ManagerMainSS</servlet-name>
+    <url-pattern>/ManagerMainSS.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PropertyMainSS</servlet-name>
+    <url-pattern>/PropertyMainSS.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Published</servlet-name>
+    <url-pattern>/Published.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteVm</servlet-name>
+    <url-pattern>/DeleteVm.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostingReview</servlet-name>
+    <url-pattern>/PostingReview.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MaPublished</servlet-name>
+    <url-pattern>/MaPublished.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePosts</servlet-name>
+    <url-pattern>/DeletePosts.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostsShow_O</servlet-name>
+    <url-pattern>/PostsShow_O.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostsShow_P</servlet-name>
+    <url-pattern>/PostsShow_P.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PostsDelete</servlet-name>
+    <url-pattern>/PostsDelete.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountUp</servlet-name>
+    <url-pattern>/AccountUp.bin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AccountDe</servlet-name>
+    <url-pattern>/AccountDe.bin</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Forum_login.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
